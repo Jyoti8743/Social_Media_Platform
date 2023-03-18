@@ -1,0 +1,6 @@
+{
+"mongoURI": "mongodb+srv://jyoti:EbDkfrVz9suHNhlm@cluster0.hxu0avz.mongodb.net/test",
+"jwtSecret": "mysecrettoken",
+"githubClientId": "35e2c763d11e15b48d21",
+"githubSecret": "cb2de7e4e5d6a3d456b393fa196aeafd781086b1"
+}
