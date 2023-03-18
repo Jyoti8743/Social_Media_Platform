@@ -2,9 +2,10 @@ import {v4 as uuid} from 'uuid';
 import { SET_ALERT, REMOVE_ALERT } from "./types";
 
 export const setAlert = (msg, alertType, timeout=5000) => dispatch => {
-    var something = "Laliya";
-    console.log(something);
-    
+    dispatch({
+        type: SET_ALERT,
+        payload: {msg, alertType, uuid}
+    })
 setTimeout(() => dispatch({type: REMOVE_ALERT, payload:uuid}), timeout)
 
 }

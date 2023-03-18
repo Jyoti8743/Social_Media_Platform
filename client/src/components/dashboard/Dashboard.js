@@ -21,6 +21,7 @@ useEffect(() => {
   if(!isAuthenticated){
 return <Navigate to="/login"/>
   }
+  console.log("Randomly");
   return loading && profile === null ? 
   <Spinner /> : <>
   <h1 className="large text-primary">Dashboard</h1>
